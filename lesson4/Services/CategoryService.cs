@@ -10,7 +10,7 @@ public class CategoryService(ApplicationDBContext applicationDbContext): ICatego
     public async Task<Response<string>> AddCategoryAsync(Category category)
     {
         using var conn = _dbContext.Connection();
-        var query = "insert into categories(name, parentcategoryid) values(@name, @parentcategoryid)";
+        var query = "insert into categories(name, parent_category_id) values(@name, @parentcategoryid)";
         var res = await conn.ExecuteAsync(query, new {name = category.Name, parentcategoryid=category.ParentCategoryId});
         return res==0
         ? new Response<string>(HttpStatusCode.InternalServerError, "Something went wrong!")
