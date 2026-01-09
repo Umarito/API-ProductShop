@@ -4,7 +4,7 @@ using System.Net;
 using lesson4.Services;
 namespace lesson4.Controllers;
 [ApiController]
-[Route("api/[controller]")]
+[Route("lesson4/attributes/")]
 public class AttributeController(IAttributeService AttributeService) : ControllerBase
 {
     [HttpGet]

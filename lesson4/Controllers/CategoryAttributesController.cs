@@ -4,7 +4,7 @@ using System.Net;
 using lesson4.Services;
 namespace lesson4.Controllers;
 [ApiController]
-[Route("api/[controller]")]
+[Route("lesson4/category_attributes/")]
 public class CategoryAttributeController(ICategoryAttributeService categoryAttributeService) : ControllerBase
 {
     [HttpGet]

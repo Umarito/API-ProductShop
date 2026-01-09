@@ -35,3 +35,4 @@ C:\Users\a\Desktop\C#.NET\.NET first week\Lesson 4\lesson4\obj\Debug\net9.0\refi
 C:\Users\a\Desktop\C#.NET\.NET first week\Lesson 4\lesson4\obj\Debug\net9.0\lesson4.pdb
 C:\Users\a\Desktop\C#.NET\.NET first week\Lesson 4\lesson4\obj\Debug\net9.0\lesson4.genruntimeconfig.cache
 C:\Users\a\Desktop\C#.NET\.NET first week\Lesson 4\lesson4\obj\Debug\net9.0\ref\lesson4.dll
+C:\Users\a\Desktop\C#.NET\.NET first week\Lesson 4\lesson4\obj\Debug\net9.0\lesson4.sourcelink.json

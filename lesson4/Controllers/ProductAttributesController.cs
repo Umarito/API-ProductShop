@@ -6,7 +6,7 @@ using lesson4.Services;
 namespace lesson4.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("lesson4/product_attributes/")]
 public class ProductAttributesController(IProductAttributeService productAttributeService) : ControllerBase
 {
     [HttpGet]
